@@ -1,0 +1,24 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "slackbot using google page speed insight",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JT-Huynh",
+  "exports": "./index.js",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1",
+    "psi": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  }
+}
