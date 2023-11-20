@@ -5,7 +5,7 @@ import psi from 'psi';
 (async () => {
   // Get the PageSpeed Insights report
   const loader = ora('Measuring URL').start();
-  const { data } = await psi('https://theverge.com');
+  const { data } = await psi('https://theverge.com', { links: true });
 
   if (data) loader.succeed();
   console.log('Speed score:', data.lighthouseResult.categories.performance.score);
